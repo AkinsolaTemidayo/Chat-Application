@@ -1,3 +1,4 @@
+/* Universal selector */
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +7,7 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+/* Body styling */
 body {
   background-image: url("/bg2.jpg");
   display: flex;
@@ -15,6 +17,7 @@ body {
   color: #fff;
 }
 
+/* Container styling */
 .container {
   width: 90vw;
   height: 90vh;
@@ -25,6 +28,7 @@ body {
   display: flex;
 }
 
+/* Loading message styling */
 .loading {
   padding: 50px;
   font-size: 36px;
